@@ -13,4 +13,10 @@ author: Jesi
 
 Damn this is cool
 
-<Test />
+<Test date={date} />
+
+```
+let a = 2
+
+let b = 'a'
+```

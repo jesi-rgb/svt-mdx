@@ -1,8 +1,13 @@
 const config = {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['Cabinet Grotesk', 'Archivo', 'Hind', 'system-ui'],
+        mono: ['Tabular']
+      }
+    }
   },
 
   plugins: []
