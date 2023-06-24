@@ -4,8 +4,8 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Archivo', 'Hind', 'system-ui'],
-        mono: ['Tabular']
+        sans: ['Work Sans', 'Hind', 'system-ui'],
+        mono: ['Tabular', 'monospace']
       }
     }
   },
