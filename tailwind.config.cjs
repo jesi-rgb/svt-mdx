@@ -4,7 +4,7 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Cabinet Grotesk', 'Archivo', 'Hind', 'system-ui'],
+        sans: ['Archivo', 'Hind', 'system-ui'],
         mono: ['Tabular']
       }
     }
