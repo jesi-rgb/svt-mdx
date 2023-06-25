@@ -7,10 +7,8 @@ author: Jesi
 
 # {title} by {author}
 
-Damn this is cool
+Damn this is cool `shit`
 
-```javascript
-let a = 2;
-
-let b = 'a';
+```
+yeah
 ```

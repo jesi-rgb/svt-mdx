@@ -3,5 +3,13 @@
 </script>
 
 <BodyText>
-	<code class=""><slot /></code>
+	<pre class="text-red-500">
+		<slot />
+	</pre>
 </BodyText>
+
+<style>
+	pre {
+		font-size: 10px;
+	}
+</style>
