@@ -1,4 +1,4 @@
-<div class="max-w-xs md:max-w-md xl:max-w-xl mx-auto text-justify">
+<div class="max-w-xs sm:max-w-md md:max-w-xl xl:max-w-xl mx-auto text-justify">
 	<slot />
 </div>
 

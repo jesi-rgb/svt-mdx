@@ -3,7 +3,7 @@
 </script>
 
 <BodyText>
-	<h1 class="font-extrabold text-blue-600">
+	<h1 class="font-extrabold text-primary">
 		<slot />
 	</h1>
 </BodyText>
