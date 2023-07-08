@@ -4,8 +4,8 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Work Sans', 'Hind', 'system-ui'],
-        mono: ['Tabular', 'monospace']
+        sans: ['Figtree', 'Work Sans', 'system-ui'],
+        mono: ['monospace']
       }
     }
   },
@@ -13,7 +13,25 @@ const config = {
   plugins: [require('daisyui')],
 
   daisyui: {
-    themes: ['autumn']
+    logs: false,
+    themes: [
+      'autumn',
+      {
+        dark: {
+          ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
+          primary: '#EEEDDD',
+          'primary-focus': '#999999',
+          'primary-content': '#2A303C',
+          accent: '#EEEDDD',
+          'accent-focus': '#999999',
+          'accent-content': '#2A303C',
+          secondary: '#AAA',
+          'secondary-content': '#2A303C',
+          'base-content': '#CCC',
+          'base-100': '#2A303C'
+        }
+      }
+    ]
   }
 };
 
