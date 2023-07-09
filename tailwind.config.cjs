@@ -5,7 +5,8 @@ const config = {
     extend: {
       fontFamily: {
         sans: ['Figtree', 'Work Sans', 'system-ui'],
-        mono: ['monospace']
+        mono: ['monospace'],
+        title: ['Bueno']
       }
     }
   },

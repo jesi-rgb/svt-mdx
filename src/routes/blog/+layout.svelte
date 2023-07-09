@@ -1,3 +1,3 @@
-<div class="my-20">
+<div class="my-20 font-medium">
 	<slot />
 </div>
