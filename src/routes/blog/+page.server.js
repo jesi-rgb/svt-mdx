@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 export function load({ params }) {
-  const pathDir = path.join(process.cwd(), 'blog/');
+  const pathDir = path.join(process.cwd(), 'src/routes/blog');
   console.log(pathDir);
 
   let fileNames = fs

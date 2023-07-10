@@ -4,8 +4,9 @@
 	import pre from '../../lib/Components/Code.svelte';
 	import strong from '../../lib/Components/Bold.svelte';
 	import em from '../../lib/Components/Italic.svelte';
+	import blockquote from '../../lib/Components/Blockquote.svelte';
 
-	export { h1, p, pre, strong, em };
+	export { h1, p, pre, strong, em, blockquote };
 </script>
 
 <div class="my-20">
