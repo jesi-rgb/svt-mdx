@@ -4,7 +4,7 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['TASA Explorer', 'Figtree', 'Work Sans', 'system-ui'],
+        sans: ['Bricolage Grotesque', 'system-ui'],
         mono: ['monospace'],
         title: ['Bueno']
       }
